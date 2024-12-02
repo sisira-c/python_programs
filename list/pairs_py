@@ -1,0 +1,8 @@
+n=[1,2,3,3,5,1]
+num=6
+p=[]
+for i in range(len(n)):
+  for j in range(i+1,len(n)):
+    if n[i]+n[j]==num:
+      p.append((n[i],n[j]))
+print(p)
